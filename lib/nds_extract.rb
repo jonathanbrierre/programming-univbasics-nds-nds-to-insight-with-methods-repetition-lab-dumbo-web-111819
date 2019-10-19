@@ -26,7 +26,11 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  
+  source_index = 0 
+  while source_index < source.count do
+    puts source[source_index][:name]
+    source_index += 1 
+  end
 end
 
 
