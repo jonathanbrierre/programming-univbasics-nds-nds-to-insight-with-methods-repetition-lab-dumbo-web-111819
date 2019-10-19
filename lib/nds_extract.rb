@@ -28,7 +28,7 @@ end
 def list_of_directors(source)
   
 end
-pp source
+
 
 def total_gross(source)
   # Write this implementation
