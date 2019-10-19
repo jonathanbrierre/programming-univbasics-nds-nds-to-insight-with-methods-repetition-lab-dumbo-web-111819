@@ -49,8 +49,8 @@ def total_gross(source)
   
   gross_sum = 0
   director_name_index = 0
-  while director_name_index < list_of_directors.count do 
-   gross_sum += directors_totals[list_of_directors[director_name_index]]
+  while director_name_index < list_of_directors(source).count do 
+   gross_sum += directors_totals(source)[list_of_directors(source)[director_name_index]]
    director_name_index += 1 
  end
   gross_sum
